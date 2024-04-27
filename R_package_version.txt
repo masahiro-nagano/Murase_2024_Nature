@@ -1,0 +1,45 @@
+After running all provided codes, the versions of packages and R are as follows.
+##########################################################################################################################################
+##########################################################################################################################################
+R version 3.6.1 (2019-07-05)
+Platform: x86_64-apple-darwin15.6.0 (64-bit)
+Running under: macOS High Sierra 10.13.6
+
+Matrix products: default
+BLAS:   /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBLAS.dylib
+LAPACK: /Library/Frameworks/R.framework/Versions/3.6/Resources/lib/libRlapack.dylib
+
+locale:
+[1] ja_JP.UTF-8/ja_JP.UTF-8/ja_JP.UTF-8/C/ja_JP.UTF-8/ja_JP.UTF-8
+
+attached base packages:
+[1] parallel  stats4    stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+ [1] patchwork_1.0.0      dbscan_1.1-5         umap_0.2.6.0         ggsignif_0.6.0       ggrepel_0.8.1        viridisLite_0.3.0   
+ [7] pals_1.6             ggh4x_0.1.2.1        RColorBrewer_1.1-2   R.utils_2.9.2        R.oo_1.23.0          R.methodsS3_1.7.1   
+[13] rtracklayer_1.44.4   GenomicRanges_1.36.1 GenomeInfoDb_1.20.0  IRanges_2.18.3       S4Vectors_0.22.1     BiocGenerics_0.30.0 
+[19] data.table_1.12.6    forcats_0.4.0        stringr_1.4.0        dplyr_1.0.4          purrr_0.3.3          readr_1.3.1         
+[25] tidyr_1.0.0          tibble_3.0.3         ggplot2_3.3.3        tidyverse_1.2.1     
+
+loaded via a namespace (and not attached):
+ [1] bitops_1.0-6                matrixStats_0.55.0          lubridate_1.7.4             httr_1.4.1                 
+ [5] tools_3.6.1                 backports_1.1.5             utf8_1.1.4                  R6_2.4.0                   
+ [9] DBI_1.0.0                   colorspace_1.4-1            withr_2.1.2                 tidyselect_1.2.0           
+[13] compiler_3.6.1              cli_3.6.1                   rvest_0.3.4                 Biobase_2.44.0             
+[17] xml2_1.3.3                  DelayedArray_0.10.0         labeling_0.3                scales_1.1.1               
+[21] hexbin_1.27.3               askpass_1.1                 digest_0.6.27               Rsamtools_2.0.3            
+[25] XVector_0.24.0              dichromat_2.0-0             pkgconfig_2.0.3             maps_3.3.0                 
+[29] rlang_1.1.1                 readxl_1.3.1                rstudioapi_0.11             generics_0.0.2             
+[33] farver_2.1.0                jsonlite_1.7.0              BiocParallel_1.18.1         RCurl_1.95-4.12            
+[37] magrittr_1.5                GenomeInfoDbData_1.2.1      Matrix_1.2-17               fansi_0.4.0                
+[41] Rcpp_1.0.11                 munsell_0.5.0               reticulate_1.34.0           lifecycle_1.0.3            
+[45] stringi_1.4.3               yaml_2.2.0                  SummarizedExperiment_1.14.1 zlibbioc_1.30.0            
+[49] plyr_1.8.4                  grid_3.6.1                  crayon_1.3.4                lattice_0.20-38            
+[53] Biostrings_2.52.0           haven_2.1.1                 mapproj_1.2.6               hms_0.5.1                  
+[57] pillar_1.4.6                reshape2_1.4.3              XML_3.99-0.3                glue_1.4.2                 
+[61] modelr_0.1.5                vctrs_0.6.2                 png_0.1-7                   cellranger_1.1.0           
+[65] gtable_0.3.0                openssl_1.4.1               broom_1.0.4                 RSpectra_0.16-0            
+[69] GenomicAlignments_1.20.1    ellipsis_0.3.0 
+##########################################################################################################################################
+##########################################################################################################################################
