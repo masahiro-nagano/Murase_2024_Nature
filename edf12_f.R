@@ -4,7 +4,7 @@ library(patchwork)
 
 
 cats <- c("Active", "Bivalent", "Poised", "Silent", "All", "Genome-wide", "Early ER", "Late ER", "Imprint DMR", "ER genes")
-cat_clrs <- setNames(tableau20(20)[c(7, 3, 5, 1, 9, 11, 13, 15, 17, 19)], cats)
+cat_clrs <- setNames(c("#953553", "#FFA500", "#088F8F", "#87CEEB", "#FFFF00", tableau20(20)[c(7, 3, 5, 1)], "#000000"), cats)
 
 
 

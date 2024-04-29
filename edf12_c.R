@@ -13,7 +13,7 @@ library(dbscan)
 
 
 cats <- c("Active", "Bivalent", "Poised", "Silent", "All" )
-cat_clrs <- setNames(tableau20(12)[c(7, 3, 5, 1, 9)], cats)
+cat_clrs <- c("#953553", "#FFA500", "#088F8F", "#87CEEB", "#000000")
 
 caluculation <- function(data, bg, n){
   set.seed(1)

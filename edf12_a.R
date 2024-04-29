@@ -12,7 +12,7 @@ library(umap)
 library(dbscan)
 
 cats <- c("Active", "Bivalent", "Poised", "Silent", "All" )
-cat_clrs <- setNames(tableau20(12)[c(7, 3, 5, 1, 9)], cats)
+cat_clrs <- setNames(c("#953553", "#FFA500", "#088F8F", "#87CEEB"), cats)
 
 ###############################################################################################################
 # load open site annotation
@@ -25,7 +25,7 @@ human_atac.clust %>%
   ggplot(aes(x=UMAP1, y= UMAP2, col = factor(clu, levels=c("4", "3", "0", "1", "2")))) +
   geom_point(size=.1) +
   facet_wrap(. ~ name, ncol = 2) +
-  scale_color_manual(values = c("#2CA02C", "#C9CACA", "#C9CACA", "#D62728", "#FF7F0E")) +
+  scale_color_manual(values = c("#088F8F", "#C9CACA", "#C9CACA", "#953553", "#FFA500")) +
   theme(plot.background = element_blank(),
         panel.background = element_rect(fill = NA, color = 'black', size = 1),
         panel.grid = element_blank(),
